@@ -4,37 +4,30 @@
   border: 0;
   box-sizing: border-box;
 }
-body {
+.area-servicos {
+  display: flex;
   width: 100vw;
-  display: flex;
-  align-items: center;
-}
-.area-main {
-  height: 100px;
-  width: 100%;
-  display: flex;
-}
-.area-servicos{
-
-}
-.servicos-titulo{
+  height: auto;
   margin-top: 50px;
   margin-bottom: 50px;
+  
+}
+.servicos-titulo{
   color: #af5c5c;
   font-size: 2rem;
   margin-bottom: 1.5rem;
   text-align: center;
 }
 .area-cards {
+  flex: 1;
   display: flex;
-  justify-content: space-between; /* Distribui o espaço igualmente */
-  gap: 90px; /* Espaço entre os cards */
+  flex-direction: column;
+  text-align: center;
   padding: 20px;
-  flex-wrap: wrap; /* Permite que os cards quebrem para linha seguinte em telas pequenas */
 
 }
 .card {
-  flex: 1;
+  
   min-width: 250px; /* Largura mínima para cada card */
   text-align: center;
   border: 1px solid #a97272;
@@ -44,5 +37,4 @@ body {
 .banner-img {
   width: 100%;
   height: 200px;
-  border-radius: 8px;
 }
