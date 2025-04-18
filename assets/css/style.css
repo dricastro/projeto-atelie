@@ -4,8 +4,50 @@
   border: 0;
   box-sizing: border-box;
 }
+.area-header {
+  
+  padding-top: 20px;
+  height: 100px;
+  width: 100%;
+  /*border-top: 100px solid #A74F58;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.area-logo {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.logo-png {
+  width: 237px;
+  height: 151px;
+}
+.area-nav {
+  border: 1px solid black;
+  flex: 1;
+  align-items: center;
+}
+.nav-list {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.nav-list-item {
+  
+}
+.area-home {
+
+}
+.texto-home{
+
+}
 .area-servicos {
   display: flex;
+  flex-direction: column;
   width: 100vw;
   height: auto;
   margin-top: 50px;
@@ -14,20 +56,21 @@
 }
 .servicos-titulo{
   color: #af5c5c;
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
+  font-size: 800;
+  margin-bottom: 20px;
   text-align: center;
+  width: 100vw;
+  height: auto;
 }
 .area-cards {
-  flex: 1;
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 20px;
-
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
 }
 .card {
-  
+  height: 350px;
+  width: 300px;
   min-width: 250px; /* Largura mínima para cada card */
   text-align: center;
   border: 1px solid #a97272;
