@@ -1,83 +1,121 @@
+.jockey-one-regular {
+font-family: "Jockey One", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
 }
 .area-header {
-  
-  padding-top: 20px;
-  height: 100px;
-  width: 100%;
-  /*border-top: 100px solid #A74F58;*/
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
+background: linear-gradient(to bottom, #A74F58 0px, #A74F58 100px, transparent 100px, transparent 300px);
+padding-top: 20px;
+height: 300px;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
 }
+
 .area-logo {
-  width: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center
+width: 100px;
+display: flex;
+justify-content: center;
+align-items: center
 }
 .logo-png {
-  width: 237px;
-  height: 151px;
+width: 237px;
+height: 151px;
 }
 .area-nav {
-  border: 1px solid black;
-  flex: 1;
-  align-items: center;
+padding-top: 20px;
+height: 100%;
+flex: 1;
+align-items: center;
 }
 .nav-list {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  gap: 10px;
+font-family: "Jockey One", sans-serif;
+font-weight: 500;
+font-style:normal;
+font-weight: bold;
+font-size: 1.5rem;
+height: 100%;
+width: 100%;
+display: flex;
+list-style: none;
+gap: 30px;
+} 
+.nav-list-item:hover{
+color: #A74F58;
+cursor: pointer;
 }
-.nav-list-item {
+
+.area-home {
+max-width: 1000px;    
+margin: 0 auto;        
+padding: 30px 10px;     
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.area-home h1 {
+text-align: center;
+margin-bottom: 30px;
+font-family: "Jockey One", sans-serif;
+color: #A74F58;
+}
+
+.area-home p{
+text-align: justify;
+margin-bottom: 20px;
+line-height: 1.6;
+}
+  
+.texto-home{
+display: flex;
+text-justify: inter-word;
+text-align: justify;
+height: 100%;
+justify-content: center;
+gap: 30px;
   
 }
-.area-home {
-
-}
-.texto-home{
-
-}
 .area-servicos {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+display: flex;
+flex-direction: column;
+width: 100vw;
+height: auto;
+margin-top: 50px;
+margin-bottom: 50px;
   
 }
 .servicos-titulo{
-  color: #af5c5c;
-  font-size: 800;
-  margin-bottom: 20px;
-  text-align: center;
-  width: 100vw;
-  height: auto;
+text-align: center;
+margin-bottom: 30px;
+font-family: "Jockey One", sans-serif;
+color: #A74F58;
 }
 .area-cards {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 30px;
+font-family: "Jockey One", sans-serif;
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 30px;
 }
 .card {
-  height: 350px;
-  width: 300px;
-  min-width: 250px; /* Largura mínima para cada card */
-  text-align: center;
-  border: 1px solid #a97272;
-  border-radius: 8px;
+height: 400px;
+width: 300px;
+line-height: 1.6;
+min-width: 250px; /* Largura mínima para cada card */
+text-align: center;
+border: 1px solid #a97272;
+border-radius: 8px;
 
 }
 .banner-img {
-  width: 100%;
-  height: 200px;
+width: 100%;
+height: 200px;
 }
